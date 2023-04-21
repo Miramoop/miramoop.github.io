@@ -5,10 +5,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name = "viewport" content="width=device-width, initial-scale=1.0">
         <title>Juniperistic Coding</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"> <!--Favicon-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css"> <!--StyleSheet-->
+        <script src="main.js"></script> <!--Javascript-->
     </head>
     <body>
-
         <!--Header-->
         <div id="header">
             <div class="container">
@@ -17,7 +19,7 @@
                     <ul>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Learning</a></li>
                         <li><a href="#">Portfolio</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
@@ -77,28 +79,44 @@
                 </div>
             </div>
         </div>
-<script>
-    var tablinks = document.getElementsByClassName("tab-links");
-    var tabcontents = document.getElementsByClassName("tab-contents");
-    
-    function opentab(tabname){
-        for(tablink of tablinks){
-            tablink.classList.remove("active-link");
-        }
 
-        for(tabcontent of tabcontents){
-            tabcontent.classList.remove("active-tab");
-        }
+<!--Currently Learning--> <!--Based on Services-->
+<div id="learning">
+    <div class="container">
+        <h1 class="sub-title">Currently Learning</h1>
+        <div class="learning-list">
 
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab");
-    }
+            <div>
+                <i class="ri-artboard-line"></i> 
+                <h2>Pixel Art</h2>
+                <p>Sprites & Environment Artwork</p>
+                <a href="#">Learn more</a>
+            </div>
 
-</script>
-    <!--Favicon-->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+            <div>
+                <i class="ri-code-line"></i>
+                <h2>C#</h2>
+                <p>Coding of Simple Programs & Games</p>
+                <a href="#">Learn more</a>
+            </div>
 
+            <div>
+                <i class="ri-pages-line"></i>
+                <h2>HTML, CSS, & Javascript</h2>
+                <p>Coding of this Portfolio Website</p>
+                <a href="#">Learn more</a>
+            </div>
 
+            <div>
+                <i class="ri-box-3-line"></i>
+                <h2>3D Modeling</h2>
+                <p>Creation of 3D Models using Blender</p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
     </body>
 </html>
 
