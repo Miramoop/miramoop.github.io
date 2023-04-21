@@ -179,19 +179,19 @@ nav ul li a:hover::after{
     display: block;
 }
 
-/*--Currently Learning--*/
-#learning{
+/*--Developments--*/
+#developments{
     padding: 30px 0;
 }
 
-.learning-list{
+.developments-list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
 }
 
-.learning-list div{
+.developments-list div{
     background: #262626;
     padding: 40px;
     font-size: 13px;
@@ -200,19 +200,19 @@ nav ul li a:hover::after{
     transition: background 0.5s, transform 0.5s;
 }
 
-.learning-list div i{
+.developments-list div i{
     font-size: 50px;
     margin-bottom: 30px;
 }
 
-.learning-list div h2{
+.developments-list div h2{
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 15px;
 
 }
 
-.learning-list div a{
+.developments-list div a{
     text-decoration: none;
     color: #fff;
     font-size: 12px;
@@ -221,7 +221,7 @@ nav ul li a:hover::after{
 
 }
 
-.learning-list div:hover{
+.developments-list div:hover{
     background: #ff004f;
     transform: translateY(-10px);
     
