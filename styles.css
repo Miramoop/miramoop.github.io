@@ -366,7 +366,7 @@ nav .fas{
         background: #ff004f;
         position: fixed;
         top: 0;
-        right: -200px; /*-200*/
+        right: -200px; 
         width: 200px;
         height: 100vh;
         padding-top: 50px;
@@ -374,7 +374,7 @@ nav .fas{
         transition: right 0.5s;
 
     }
-    
+
     nav ul li{
        display: block;
        margin: 25px;
