@@ -8,7 +8,6 @@
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"> <!--Favicon-->
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
         <link rel="stylesheet" href="styles.css"> <!--StyleSheet-->
-        <script src="main.js"></script> <!--Javascript-->
     </head>
     <body>
         <!--Header-->
@@ -21,23 +20,24 @@
                         <li><a href="#about">About</a></li>
                         <li><a href="#experience">Experience</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
-                        <i class="fas ri-close-line"></i>
                     </ul>
-                    <i class="fas ri-menu-line" onclick="closemenu()"></i>
+                    <div class="hamburger-menu">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
                 </nav>
+                
                 <div class="header-text" onclick="openmenu()">
                     <p>Compsci Student</p>
                     <h1>Hi, I'm <span>Miranda</span></h1>
                 </div>
                 <div class="social-icons">
                     <a href="https://www.linkedin.com/in/mirandamorris845/" target="_blank" rel="noopener" rel="noreferrer"><i class="ri-linkedin-box-fill"></i></a>
-                    <a href="https://github.com/Juniperistic" target="_blank" rel="noopener" rel="noreferrer"><i class="ri-github-fill"></i></a>
-                    <a href="https://juniperistic.itch.io/" target="_blank" rel="noopener" rel="noreferrer"><i class="ri-gamepad-line"></i></a>
+                    <a href="https://github.com/Miramoop" target="_blank" rel="noopener" rel="noreferrer"><i class="ri-github-fill"></i></a>
+                    <a href="https://miramoop.itch.io/" target="_blank" rel="noopener" rel="noreferrer"><i class="ri-gamepad-line"></i></a>
                     <a href="mailto:juniperistic@gmail.com"><i class="ri-mail-line"></i></a>
                 </div>
-
-                <!--Download Button Example-->
-                <!-- <a href="img/resume.pdf" download class="btn btn2">Download</a> -->
             </div>
         </div>
 
@@ -104,14 +104,12 @@
                 <i class="ri-code-line"></i>
                 <h2>C#</h2>
                 <p>Coding of Simple Programs & Games</p>
-                <!-- <a href="#">Learn More</a> -->
             </div>
 
             <div>
                 <i class="ri-pages-line"></i>
                 <h2>HTML, CSS, & Javascript</h2>
                 <p>Coding of this Portfolio Website</p>
-                <!-- <a href="#">Learn More</a> -->
             </div>
 
         </div>
@@ -128,7 +126,7 @@
                 <div class="layer">
                     <h3>Portfolio Website</h3>
                     <p>This is the GitHub repo for the website you are currently visiting!</p>
-                    <a href="https://github.com/Juniperistic/juniperistic.github.io" target="_blank" rel="noopener" rel="noreferrer"><i class="ri-external-link-line"></i></a>
+                    <a href="https://github.com/Miramoop/juniperistic.github.io" target="_blank" rel="noopener" rel="noreferrer"><i class="ri-external-link-line"></i></a>
                 </div>
             </div>
 
@@ -137,7 +135,7 @@
                 <div class="layer">
                     <h3>Dino Rhythm Game</h3>
                     <p>This is the GitHub repo for one of the games that I am developing! You're a dino on an adventure trying to collect all the correct notes! </p>
-                    <a href="https://github.com/Juniperistic/Dino-Rhythm-Game" target="_blank" rel="noopener" rel="noreferrer"><i class="ri-external-link-line"></i></a>
+                    <a href="https://github.com/Miramoop/Dino-Rhythm-Game" target="_blank" rel="noopener" rel="noreferrer"><i class="ri-external-link-line"></i></a>
                 </div>
             </div>
 
@@ -146,11 +144,10 @@
                 <div class="layer">
                     <h3>Mission Demo Game</h3>
                     <p>This is the GitHub repo for another one of the games that I am developing! You must destroy all the castles!!</p>
-                    <a href="https://github.com/Juniperistic/MissionDemolition" target="_blank" rel="noopener" rel="noreferrer"><i class="ri-external-link-line"></i></a>
+                    <a href="https://github.com/Miramoop/Mission-Demolition" target="_blank" rel="noopener" rel="noreferrer"><i class="ri-external-link-line"></i></a>
                 </div>
             </div>
         </div>
-        <!-- <a href="#" class="btn">See more</a> -->
 
         <div class="copyright">
             <p> © Juniperistic, 2023 <br> 
@@ -158,28 +155,7 @@
         </div>
     </div>
 </div>
+<script src="main.js"></script> <!--Javascript-->
     </body>
 </html>
 
-<!--Note To Self-->
-<!-- The side menu remains visible on mobile, in the right side 200px. 
-To fix it, at this to javascript:  
-
-function openMenu() {
-            sidemenu.classList.add("show_menu");
-            sidemenu.classList.remove("hide_menu");
-           }
-           function closeMenu() {
-            sidemenu.classList.add("hide_menu");
-            sidemenu.classList.remove("show_menu");
-           }
-
-and add this to style.css:
-
-.show_menu {
-    display: block;
-    margin-right: 200px;  
-}
-.hide_menu {
-    display: none;
-} -->
